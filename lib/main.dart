@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'screens/main_screen.dart';
 
-Future<void> main() async {
+void main()  {
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(
